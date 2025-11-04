@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Royaume des Mygales — Accueil</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header no-print">
+    <img src="logo.svg" alt="logo" class="logo">
+    <div class="site-title">Royaume des Mygales</div>
+    <div class="tag">Silence. Ombres. Patience. Et huit yeux qui observent.</div>
+    <nav class="main-nav no-print">
+      <a href="index.html">Accueil</a>
+      <a href="elevage.html">Élevage</a>
+      <a href="gallery.html">Galerie</a>
+      <a href="especes.html">Espèces</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <div>
+        <h2>Plonge dans l'obscurité</h2>
+        <p>Ambiance gothique, guides d'élevage, galerie macro et effets visuels pour ressentir la nuit. Ce site est pensé pour les passionnés — respect et curiosité avant tout.</p>
+        <div style="margin-top:14px;">
+          <a class="btn" href="elevage.html">Guide d'élevage</a>
+          <a class="btn ghost" href="gallery.html">Galerie nocturne</a>
+          <button id="pdfBtn" class="btn ghost" style="margin-left:10px;">Télécharger en PDF</button>
+        </div>
+      </div>
+      <div>
+        <div class="card spider-wrap">
+          <div style="text-align:center"><strong style="color:var(--accent)">Araignée en surface</strong></div>
+          <div class="spider"><img src="logo.svg" alt="spider"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Ambiance & précautions</h3>
+      <p style="color:var(--muted)">Active la musique d'ambiance (fichier non inclus). Les photos de la galerie sont des exemples ; remplace-les par tes propres images dans <code>assets/gallery/</code>.</p>
+    </section>
+
+    <section class="card">
+      <h3>Galerie rapide</h3>
+      <div class="masonry">
+        <img src="assets/gallery/photo1.svg" alt="photo1">
+        <img src="assets/gallery/photo2.svg" alt="photo2">
+        <img src="assets/gallery/photo3.svg" alt="photo3">
+        <img src="assets/gallery/photo4.svg" alt="photo4">
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer no-print">
+    © 2025 Royaume des Mygales — Créé pour Sullyvan
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

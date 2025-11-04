@@ -1,0 +1,10 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#050005"/>
+  <g fill="none" stroke="#ff8cdb" stroke-width="12" stroke-linecap="round" opacity="0.9">
+    <path d="M200 700 C320 520 420 420 640 420 C860 420 940 520 1000 700"/>
+    <path d="M600 200 C620 320 700 380 780 420"/>
+    <circle cx="600" cy="360" r="120" fill="#ffd6f0" opacity="0.06"/>
+  </g>
+  <text x="40" y="60" fill="#ffd6f0" font-family="Georgia, serif" font-size="40">Macro 3</text>
+</svg>
